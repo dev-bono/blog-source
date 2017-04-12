@@ -96,10 +96,11 @@ article {
   overflow-x: hidden;
 }
 blockquote {
-  color: #ffb4ba;
+  color: #808080;
   font-style: italic;
   font-size: 0.95em;
   margin: 20px 0 20px;
+  border-left: 5px solid #ffb4ba;
 }
 blockquote p {
   margin: 0;
