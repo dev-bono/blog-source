@@ -16,8 +16,85 @@ require와 import에 대해서 비교해 보기 위해서는 우선 [CommonJs](h
 이를 해결하기 위한 수단으로 모듈이라는 개념을 도입하여 정의한 방법(또는 표준)이 CommonJs와 AMD입니다. 이 둘은 내부적으로 모듈 서로 간의 의존성(로드)이 지원되지 않는 상태로 만들어졌는데, ES6에 이르러 언어 내부적으로 자바스크립트 모듈 의존성을 지원하게 되었습니다(import, export). 
 
 
-### 모듈정의 혼용
+### 모듈정의 방식의 혼용
 
-ES6 모듈은 기본적으로 CommonJs와 AMD 모듈을 혼용해서 사용할 수 있습니다. 모듈을 가져오는 부분에 require와 import를 같이 쓰더라도 문제없이 동작하죠. 그런데 최근 프로젝트에서 mocha + karma로 테스트 코트를 작성하였는데, 관련하여 정보를 검색하던 중 프로젝트 내에서 require와 import를 혼용하는 것에 대한 문제점을 발견하게 되었습니다.
+ES6 모듈은 기본적으로 CommonJs와 AMD 모듈을 혼용해서 사용할 수 있습니다. 모듈을 가져오는 부분에 require와 import를 같이 쓰더라도 문제없이 동작하죠. import는 ES6 문법이라 현재 사용되는 브라우저에서는 지원하지 않지만 babel과 같은 트랜스파일러가 해결해줄수 있습니다. AMD는 생략하고 ES6와 CommonJs를 비교하여 설명해보겠습니다.
+
+모듈을 정의한다는 것은 다른 모듈에서 사용할 수 있도록 하나의 모듈로써 노출하겠다는 의미다.
+
+#### 모듈 정의하기 (export)
+
+**ES6**
+
+```
+// 모듈 전체를 export, 파일내 한번만 사용가능하다.
+var module = {};
+export default module
 
 
+// 모든 속성을 export
+export *;
+
+
+// 함수를 직접 export
+export function moduleFunc() {};
+var property = "some property";
+export {property};
+```
+
+**CommonJs**
+
+```
+// 모듈 전체를 export
+module.exports = module;
+
+
+// 모든 속성을 export
+// (아시는 분 알려주세요) 
+
+
+// 함수를 직접 export
+exports.moduleFunc = function() {};
+```
+
+#### 모듈 가져오기 (import)
+
+**ES6**
+
+```
+// 모듈 전체를 import
+import module
+import module as myModule
+
+
+// 모든 속성 import
+import * from module
+
+
+// 특정 멤버(함수 등)만 import
+import {moduleFunc, moduleFunc2} from module
+```
+
+**CommonJs**
+
+```
+// 모듈 전체를 import
+var module = require('./someModule.js');
+
+// 모든 속성 import
+// (위의 module 객체에 모든 속성이 담아져 온다.)
+
+// 특정 멤버(함수 등)만 import, 위의 module을 이용한다.
+module.moduleFunc
+```
+
+### 결론
+
+> 바벨과 같은 트랜스파일링 모듈을 사용한다면 주저없이 ES6를 사용합니다.
+> 혼용하는것도 가능하지만 가급적이면 통일되게 사용하는 것이 좋다고 생각합니다.
+> 실제로 제가 프로젝트 진행하면서 mocha 테스트 중 ES6의 import/export와 CommonJs의 `module.exports` 를 혼용하여 사용시 문제가 발생했었습니다(자세히 언급하지 않음). 
+
+### 참고
+
+* [JavaScript 표준을 위한 움직임: CommonJS와 AMD](http://d2.naver.com/helloworld/12864)
+* [ES6: Use of "import { property } from 'module'" is Not a Great Plan](https://www.exratione.com/2015/12/es6-use-of-import-property-from-module-is-not-a-great-plan/)
