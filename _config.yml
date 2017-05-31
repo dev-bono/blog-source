@@ -20,23 +20,21 @@ permalink_defaults:
 
 # Site settings
 SEOTitle: 보노의블로그 | Bono's Blog
-header-img: img/home-bg.jpg
+header-img:
 email: blueshw83@gmail.com
 description: ""
 keyword: ""
 
 
 # SNS settings
-# RSS: false
-weibo_username:     
-zhihu_username:     
+# RSS: false  
 github_username:    blueshw
 twitter_username:   
 facebook_username:  blueshw
 linkedin_username: 
 
 # Build settings
-anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+anchorjs: false                          # if you want to customize anchor. check out line:181 of `post.html`
 
 
 # Disqus settings
@@ -62,22 +60,6 @@ sidebar-avatar: "https://s.gravatar.com/avatar/e9b052a52621754eede9ed8d52735ccf?
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
 featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
-
-
-# Friends
-#friends: [
-#    {
-#        title: "bono's Blog",
-#        href: "http://blog.kaijun.rocks"
-#    },{
-#        title: "Hux Blog",
-#        href: "http://huangxuan.me"
-#    }
-#]
-
-
-#Custom Setting End
-
 
 
 # Directory

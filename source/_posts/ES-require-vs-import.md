@@ -1,6 +1,6 @@
 ---
-title: [javascript] require vs import (CommonJs와 ES6)
-date: 2017-05-15 21:59:31
+title: "[javascript] require vs import (CommonJs와 ES6)"
+date: 2017-05-16 23:59:31
 tags:
 - javascript
 - ES6
