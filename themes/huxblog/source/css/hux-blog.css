@@ -1,6 +1,5 @@
 @media (min-width: 1200px) {
-  .post-container,
-  .sidebar-container {
+  .post-container, .sidebar-container {
     padding-right: 5%;
   }
 }
@@ -24,15 +23,13 @@
 .sidebar-container a {
   color: #bfbfbf !important;
 }
-.sidebar-container a:hover,
-.sidebar-container a:active {
+.sidebar-container a:hover, .sidebar-container a:active {
   color: #0085a1 !important;
 }
 .sidebar-container .tags a {
   border-color: #bfbfbf;
 }
-.sidebar-container .tags a:hover,
-.sidebar-container .tags a:active {
+.sidebar-container .tags a:hover, .sidebar-container .tags a:active {
   border-color: #0085a1;
 }
 .sidebar-container .short-about img {
@@ -53,7 +50,23 @@ body {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.6;
   font-size: 18px;
   font-weight: 200;
@@ -63,17 +76,28 @@ body {
 p {
   margin: 30px 0;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
   /* Hux learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
   line-height: 1.1;
   font-weight: 400;
@@ -84,12 +108,10 @@ h4 {
 a {
   color: #404040;
 }
-a:hover,
-a:focus {
+a:hover, a:focus {
   color: #0085a1;
 }
-a img:hover,
-a img:focus {
+a img:hover, a img:focus {
   cursor: zoom-in;
 }
 article {
@@ -126,8 +148,7 @@ img.shadow {
     background: white;
   }
 }
-.table th,
-.table td {
+.table th, .table td {
   border: 1px solid #eee !important;
 }
 hr.small {
@@ -136,8 +157,7 @@ hr.small {
   border-width: 4px;
   border-color: white;
 }
-pre,
-.table-responsive {
+pre, .table-responsive {
   -webkit-overflow-scrolling: touch;
 }
 pre code {
@@ -149,8 +169,7 @@ pre code {
 .post-container a {
   color: #337ab7;
 }
-.post-container a:hover,
-.post-container a:focus {
+.post-container a:hover, .post-container a:focus {
   color: #0085a1;
 }
 .post-container h1,
@@ -178,19 +197,16 @@ pre code {
 .post-container h6 + p {
   margin-top: 5px;
 }
-.post-container ul,
-.post-container ol {
+.post-container ul, .post-container ol {
   margin-bottom: 40px;
 }
 @media screen and (max-width: 768px) {
-  .post-container ul,
-  .post-container ol {
+  .post-container ul, .post-container ol {
     padding-left: 30px;
   }
 }
 @media screen and (max-width: 500px) {
-  .post-container ul,
-  .post-container ol {
+  .post-container ul, .post-container ol {
     padding-left: 20px;
   }
 }
@@ -218,7 +234,8 @@ pre code {
     border: none;
     background: white;
     box-shadow: 0px 5px 10px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px, rgba(0, 0, 0, 0.239216) 0px 1px 4px;
+    box-shadow: rgba(0, 0, 0, 0.117647) 0px 1px 6px,
+      rgba(0, 0, 0, 0.239216) 0px 1px 4px;
     border-radius: 2px;
     width: 170px;
     float: right;
@@ -276,7 +293,23 @@ pre code {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
 }
 .navbar-custom .navbar-brand {
@@ -311,16 +344,14 @@ pre code {
     padding: 20px;
     line-height: 20px;
   }
-  .navbar-custom .navbar-brand:hover,
-  .navbar-custom .navbar-brand:focus {
+  .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a {
     color: white;
     padding: 20px;
   }
-  .navbar-custom .nav li a:hover,
-  .navbar-custom .nav li a:focus {
+  .navbar-custom .nav li a:hover, .navbar-custom .nav li a:focus {
     color: rgba(255, 255, 255, 0.8);
   }
   .navbar-custom .nav li a:active {
@@ -376,7 +407,7 @@ pre code {
 }
 .intro-header {
   background: no-repeat center center;
-  background-color: #808080;
+  background-color: #ffffff;
   background-attachment: scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -395,7 +426,7 @@ pre code {
 .intro-header .post-heading,
 .intro-header .page-heading {
   padding: 85px 0 55px;
-  color: white;
+  color: dblack;
 }
 @media only screen and (min-width: 768px) {
   .intro-header .site-heading,
@@ -412,12 +443,10 @@ pre code {
     padding: 100px 0;
   }
 }
-.intro-header .site-heading,
-.intro-header .page-heading {
+.intro-header .site-heading, .intro-header .page-heading {
   text-align: center;
 }
-.intro-header .site-heading h1,
-.intro-header .page-heading h1 {
+.intro-header .site-heading h1, .intro-header .page-heading h1 {
   margin-top: 0;
   font-size: 50px;
 }
@@ -427,7 +456,23 @@ pre code {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
   font-size: 18px;
   line-height: 1.1;
@@ -436,8 +481,7 @@ pre code {
   margin: 10px 0 0;
 }
 @media only screen and (min-width: 768px) {
-  .intro-header .site-heading h1,
-  .intro-header .page-heading h1 {
+  .intro-header .site-heading h1, .intro-header .page-heading h1 {
     font-size: 50px;
   }
 }
@@ -445,8 +489,7 @@ pre code {
   font-size: 30px;
   margin-bottom: 24px;
 }
-.intro-header .post-heading .subheading,
-.intro-header .post-heading .meta {
+.intro-header .post-heading .subheading, .intro-header .post-heading .meta {
   line-height: 1.1;
   display: block;
 }
@@ -455,7 +498,23 @@ pre code {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
   font-size: 17px;
   line-height: 1.4;
@@ -486,8 +545,7 @@ pre code {
 .post-preview > a {
   color: #404040;
 }
-.post-preview > a:hover,
-.post-preview > a:focus {
+.post-preview > a:hover, .post-preview > a:focus {
   text-decoration: none;
   color: #0085a1;
 }
@@ -515,8 +573,7 @@ pre code {
   text-decoration: none;
   color: #404040;
 }
-.post-preview > .post-meta > a:hover,
-.post-preview > .post-meta > a:focus {
+.post-preview > .post-meta > a:hover, .post-preview > .post-meta > a:focus {
   color: #0085a1;
   text-decoration: underline;
 }
@@ -577,8 +634,7 @@ footer .copyright {
 footer .copyright a {
   color: #337ab7;
 }
-footer .copyright a:hover,
-footer .copyright a:focus {
+footer .copyright a:hover, footer .copyright a:focus {
   color: #0085a1;
 }
 .floating-label-form-group {
@@ -588,8 +644,7 @@ footer .copyright a:focus {
   padding-bottom: 0.5em;
   border-bottom: 1px solid #eeeeee;
 }
-.floating-label-form-group input,
-.floating-label-form-group textarea {
+.floating-label-form-group input, .floating-label-form-group textarea {
   z-index: 1;
   position: relative;
   padding-right: 0;
@@ -612,10 +667,10 @@ footer .copyright a:focus {
   vertical-align: middle;
   vertical-align: baseline;
   opacity: 0;
-  -webkit-transition: top 0.3s ease,opacity 0.3s ease;
-  -moz-transition: top 0.3s ease,opacity 0.3s ease;
-  -ms-transition: top 0.3s ease,opacity 0.3s ease;
-  transition: top 0.3s ease,opacity 0.3s ease;
+  -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+  -moz-transition: top 0.3s ease, opacity 0.3s ease;
+  -ms-transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease, opacity 0.3s ease;
 }
 .floating-label-form-group::not(:first-child) {
   padding-left: 14px;
@@ -636,7 +691,23 @@ form .row:first-child .floating-label-form-group {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 14px;
@@ -649,8 +720,7 @@ form .row:first-child .floating-label-form-group {
   font-size: 16px;
   padding: 25px 35px;
 }
-.btn-default:hover,
-.btn-default:focus {
+.btn-default:hover, .btn-default:focus {
   background-color: #0085a1;
   border: 1px solid #0085a1;
   color: white;
@@ -659,13 +729,28 @@ form .row:first-child .floating-label-form-group {
   margin: 20px 0 0 !important;
   padding: 0px !important;
 }
-.pager li > a,
-.pager li > span {
+.pager li > a, .pager li > span {
   /* Hux learn from
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
   text-transform: uppercase;
   font-size: 13px;
@@ -676,8 +761,7 @@ form .row:first-child .floating-label-form-group {
   border-radius: 0;
 }
 @media only screen and (min-width: 768px) {
-  .pager li > a,
-  .pager li > span {
+  .pager li > a, .pager li > span {
     font-size: 14px;
     padding: 15px 25px;
   }
@@ -685,8 +769,7 @@ form .row:first-child .floating-label-form-group {
 .pager li > a {
   color: #404040;
 }
-.pager li > a:hover,
-.pager li > a:focus {
+.pager li > a:hover, .pager li > a:focus {
   color: white;
   background-color: #0085a1;
   border: 1px solid #0085a1;
@@ -724,31 +807,26 @@ body {
 .tags {
   margin-bottom: -5px;
 }
-.tags a,
-.tags .tag {
+.tags a, .tags .tag {
   display: inline-block;
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
   border-radius: 999em;
   padding: 0 10px;
-  color: #ffffff;
+  color: #000000;
   line-height: 24px;
   font-size: 12px;
   text-decoration: none;
   margin: 0 1px;
   margin-bottom: 6px;
 }
-.tags a:hover,
-.tags .tag:hover,
-.tags a:active,
-.tags .tag:active {
-  color: white;
-  border-color: white;
+.tags a:hover, .tags .tag:hover, .tags a:active, .tags .tag:active {
+  color: grey;
+  border-color: grey;
   background-color: rgba(255, 255, 255, 0.4);
   text-decoration: none;
 }
 @media only screen and (min-width: 768px) {
-  .tags a,
-  .tags .tag {
+  .tags a, .tags .tag {
     margin-right: 5px;
   }
 }
@@ -763,8 +841,7 @@ body {
 #tag_cloud {
   margin: 20px 0 15px 0;
 }
-#tag_cloud a,
-#tag_cloud .tag {
+#tag_cloud a, #tag_cloud .tag {
   font-size: 14px;
   border: none;
   line-height: 28px;
@@ -813,7 +890,23 @@ body {
      *     TypeIsBeautiful,
      *     [This Post](http://zhuanlan.zhihu.com/ibuick/20186806) etc.
      */
-  font-family: -apple-system, "Helvetica Neue", "Arial", "PingFang SC", "Hiragino Sans GB", "STHeiti", "Microsoft YaHei", "Microsoft JhengHei", "Source Han Sans SC", "Noto Sans CJK SC", "Source Han Sans CN", "Noto Sans SC", "Source Han Sans TC", "Noto Sans CJK TC", "WenQuanYi Micro Hei", SimSun, sans-serif;
+  font-family: -apple-system,
+    "Helvetica Neue",
+    "Arial",
+    "PingFang SC",
+    "Hiragino Sans GB",
+    "STHeiti",
+    "Microsoft YaHei",
+    "Microsoft JhengHei",
+    "Source Han Sans SC",
+    "Noto Sans CJK SC",
+    "Source Han Sans CN",
+    "Noto Sans SC",
+    "Source Han Sans TC",
+    "Noto Sans CJK TC",
+    "WenQuanYi Micro Hei",
+    SimSun,
+    sans-serif;
   line-height: 1.7;
 }
 .one-tag-list .post-preview {
@@ -859,8 +952,7 @@ body {
   margin: 1.5em auto 1.6em auto;
 }
 /* Hux Optimize UserExperience */
-.navbar-default .navbar-toggle:focus,
-.navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
   background-color: inherit;
 }
 .navbar-default .navbar-toggle:active {
@@ -954,5 +1046,3 @@ body {
 .page-fullscreen footer .copyright a:hover {
   color: #ddd;
 }
-
-

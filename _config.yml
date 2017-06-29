@@ -11,7 +11,7 @@ timezone: Asia/Seoul
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://blueshw.githup.io
+url: http://blueshw.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -137,3 +137,17 @@ image_minifier:
   progressive: false
 
 autoprefixer:
+
+nofollow:
+  enable: true
+
+# sitemap auto generator
+sitemap:
+    path: sitemap.xml
+
+# feed
+feed:
+  type: atom
+  path: feed.xml
+  limit: 20
+  hub:
