@@ -1,6 +1,6 @@
-# blueshw.github.io
 
-## project
+# project
+* [블로그 바로가기](https://blueshw.github.io)
 * [HEXO 프레임워크](https://hexo.io/ko/)
 * 문장 형식은 `~입니다`, `~요`를 사용한다.
 
@@ -19,7 +19,7 @@ npm install -g hexo-cli
     - _post : post 소스 폴더
 ~~~
 
-## writing
+# writing
 hexo new 명령어로 새로운 포스팅 폴더를 만든다.
 새롭게 생성한 post는 `source/_posts` 폴더에 저장된다.
 ```
@@ -37,7 +37,7 @@ title: this-is-my-first-post
 => https://blueshow.github.io/2018/01/15/this-is-my-first-post
 ```
 
-## test
+# test
 로컬환경에서 실행하기
 ```
 hexo server
@@ -48,7 +48,7 @@ hexo server
 http://localhost:4000
 ```
 
-## generating & deploy
+# generating & deploy
 정적파일을 생성(generate)하고 blueshw.github.io 레파지토리에 배포(deploy)한다.
 레파지토리 정보는 `_config.yml`을 참조한다.
 ```
