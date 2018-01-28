@@ -1,5 +1,5 @@
 ---
-title: [번역] Tasks, microtasks, queues and schedules
+title: "[번역] Tasks, microtasks, queues and schedules"
 date: 2018-01-28 21:31:39
 tags:
 - javascript
@@ -7,7 +7,6 @@ tags:
 - microtask
 - Promise
 ---
-
 > 원본: https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
 > 의역, 오역이 가득합니다. 개인적으로 정확한 개념을 잡기 위한 번역입니다. 불필요하다 생각한 내용은 과감히 제거했습니다.
 > 테스트는 원본 페이지에서 확인 가능합니다.
@@ -53,6 +52,7 @@ promise가 처리될 때 혹은 이미 처리된 promise는 callback을 처리�
 
 위 코드를 다시 살펴보면 아래와 같은 순서로 처리됨을 알 수 있다.
 > 원문에서 확인함을 추천, 원문에는 animation으로 코드의 실행과정과 task queue 및 js 실행 스택을 확인할 수 있다.
+
 ```
 // 1 - task1 실행: script, script start 출력
 console.log('script start');
