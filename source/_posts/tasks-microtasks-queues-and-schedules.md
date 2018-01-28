@@ -8,8 +8,8 @@ tags:
 - Promise
 ---
 
-> 원본: https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/
-> 의역, 오역이 가득합니다. 개인적으로 정확한 개념을 잡기 위한 번역입니다. 불필요하다 생각한 내용은 과감히 제거했습니다. 
+> 원본: https://jakearchibald.com/2015/tasks-microtasks-queues-and-schedules/\
+> 의역, 오역이 가득합니다. 개인적으로 정확한 개념을 잡기 위한 번역입니다. 불필요하다 생각한 내용은 과감히 제거했습니다.\
 > 테스트는 원본 페이지에서 확인 가능합니다.
 
 아래 자바스크립트 코드를 살펴보자.
@@ -200,12 +200,12 @@ outer.addEventListener('click', onClick);
 
 역시 크롬이 맞다(글 작성자가 구글 직원이다). 다른 자바스크립트가 실행되고 있지 않다고 가정하고 microtask가 task의 끝에서 처리된다기 보다는 콜백들이 모두 처리된 이후에 처리된다고 보는게 맞다. 이 규칙은 콜백을 호출하는 HTML 스펙에 잘 정의되어 있다. 
 
-> 만약 [자바스크립트 스택](https://html.spec.whatwg.org/multipage/webappapis.html#stack-of-script-settings-objects)이 비어있다면 [microtask가 실행될지를 체크](https://html.spec.whatwg.org/multipage/webappapis.html#perform-a-microtask-checkpoint)하다.
+> 만약 [자바스크립트 스택](https://html.spec.whatwg.org/multipage/webappapis.html#stack-of-script-settings-objects)이 비어있다면 [microtask가 실행될지를 체크](https://html.spec.whatwg.org/multipage/webappapis.html#perform-a-microtask-checkpoint)하다.\
 > \- [HTML: Cleaning up after a callback](https://html.spec.whatwg.org/multipage/webappapis.html#clean-up-after-running-a-callback) step 3
 
 microtask 대기열이 처리중이 아니라면 microtask 수행 체크는 microtask 대기열을 지나가버린다. 비슷하게 ECMAScript는 jobs에 대해 이렇게 말한다.
 
-> job의 실행은 단지 실행 컨택스트가 동작하지 않을때만 초기화된다.
+> job의 실행은 단지 실행 컨택스트가 동작하지 않을때만 초기화된다.\
 > [ECMAScript: Jobs and Job Queues](http://www.ecma-international.org/ecma-262/6.0/#sec-jobs-and-job-queues)
 
 ### 다른 브라우저들은 뭐가 잘못됐을까?
