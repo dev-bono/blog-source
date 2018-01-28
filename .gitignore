@@ -4,4 +4,8 @@ public/*
 .DS_Store
 .DS_Store/*
 node_modules/*
+<<<<<<< HEAD
 db.json
+=======
+db.json
+>>>>>>> 124af3bb284ef8608ec7062840eaea49ab4c2336
