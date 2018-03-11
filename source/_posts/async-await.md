@@ -1,5 +1,5 @@
 ---
-title: '[ES8] async, await를 사용하여 비동기 javascript를 동기식으로 만들자'
+title: '[javascript] async, await를 사용하여 비동기 javascript를 동기식으로 만들자'
 date: 2018-02-27 21:56:31
 tags:
 - ES8
