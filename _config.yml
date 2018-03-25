@@ -29,7 +29,7 @@ keyword: ""
 # SNS settings
 # RSS: false  
 github_username:    blueshw
-twitter_username:   
+twitter_username:   blueshw
 facebook_username:  blueshw
 linkedin_username: 
 
@@ -59,7 +59,7 @@ sidebar-avatar: "https://s.gravatar.com/avatar/e9b052a52621754eede9ed8d52735ccf?
 
 # Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
-featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+featured-condition-size: 3             # A tag will be featured if the size of it is more than this condition value
 
 
 # Directory

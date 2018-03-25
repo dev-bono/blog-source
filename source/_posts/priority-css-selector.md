@@ -1,12 +1,11 @@
 ---
-title: '[CSS] styled-jsx의 CSS 선택자 우선순위 (feat. stylis)'
+title: '[CSS] styled-jsx 버그 보고 경험기 (사실은 stylus 버그)'
 date: 2018-03-25 12:09:41
 tags:
 - css
 - css selector
 - github
 - styled-jsx
-- nextjs
 - stylis
 ---
 CSS는 일련의 가중치에 따라서 어떤 속성을 우선적으로 적용할 것인지 결정합니다. 우선순위에 대한 정보는 조금만 검색해보면 나오므로 간단히 [링크](https://gist.github.com/mjj2000/5873872)로 대체합니다.
