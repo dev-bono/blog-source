@@ -148,9 +148,15 @@ img.shadow {
     background: white;
   }
 }
-.table th, .table td {
-  border: 1px solid #eee !important;
+table th, table td {
+  font-size: 16px;
+  border: 1px solid #e5e5e5 !important;
+  padding: 5px 25px;
 }
+table th {
+  background: #f0f0f0;
+}
+
 hr.small {
   max-width: 100px;
   margin: 15px auto;
@@ -949,6 +955,7 @@ body {
   display: block;
   max-width: 100%;
   height: auto;
+  border: 1px solid #f1f1f1;
   margin: 1.5em auto 1.6em auto;
 }
 /* Hux Optimize UserExperience */
