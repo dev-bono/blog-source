@@ -119,13 +119,18 @@ deploy:
 
 html_minifier:
   enable: true
+  silent: false
   ignore_error: false
 
 css_minifier:
   enable: true
+  silent: false
+  exclude: 
+    - '*.min.css'
 
 js_minifier:
   enable: true
+  silent: false
   mangle: true
 
 image_minifier:
