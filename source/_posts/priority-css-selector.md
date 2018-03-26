@@ -1,5 +1,5 @@
 ---
-title: '[CSS] styled-jsx 버그 보고 경험기 (사실은 stylus 버그)'
+title: '[CSS] styled-jsx 버그 보고 경험기 (사실은 stylis js 버그)'
 date: 2018-03-25 12:09:41
 tags:
 - css
