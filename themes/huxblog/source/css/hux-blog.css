@@ -31,6 +31,11 @@
 .sidebar-container .tags a {
   border-color: #bfbfbf;
 }
+.sidebar-container .tags a.bold {
+  border: 1px solid #777;
+  color: #666 !important;
+  font-weight: 500;
+}
 .sidebar-container .tags a:hover,
 .sidebar-container .tags a:active {
   border-color: #0085a1;

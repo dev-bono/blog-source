@@ -161,7 +161,12 @@ layout: layout
                     <div class="tags">
                         <% site.tags.map(function(tag){  %>
                             <% if(tag.length > config['featured-condition-size']) { %>
-                            <a href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>" rel="<%= tag.length %>"><%= tag.name %></a>
+                                <% if(tag.length > config['more-featured-condition-size']) { %>
+                                    <a class="bold" href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>" rel="<%= tag.length %>"><%= tag.name %></a>
+                                <% } %>
+                                <% if(tag.length <= config['more-featured-condition-size']) { %>
+                                    <a href="<%= config.root %>tags/#<%= tag.name %>" title="<%= tag.name %>" rel="<%= tag.length %>"><%= tag.name %></a>
+                                <% } %>
                             <% } %>
                         <% }) %>
                     </div>
