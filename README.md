@@ -37,6 +37,12 @@ title: this-is-my-first-post
 => https://blueshow.github.io/2018/01/15/this-is-my-first-post
 ```
 
+이미지 삽입하기
+`hexo new` 커맨드로 만들어진 post 파일과 동일한 이름의 폴더에 image를 넣고 아래 코드를 삽입한다.
+```
+{% asset_img filename.png %}
+```
+
 # test
 로컬환경에서 실행하기
 ```
