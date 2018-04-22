@@ -55,7 +55,7 @@ leftButton.addEventListener('click', clickBtnHandler, true);
 #### 이벤트 capturing
 이번에는 캡쳐링을 살펴보겠습니다. 이벤트 캡쳐링과 버블링을 비교하기 위해 `menuBox`에 이벤트를 추가합니다. background와 home버튼은 `onClickCapture`로 바인딩(캡쳐링)하고, menuBox에는 `onClick`으로 바인딩(버블링)합니다. 위에서 이벤트가 발생하는 순서는 `캡쳐링 -> 타겟노드 -> 버블링`이므로 가장먼저 `left`가 출력됩니다. 그 다음은 타켓노드의 이벤트가 발생해서 `home`이 출력됩니다. 타켓노드 이후에 이벤트가 버블링 되고 menuBox에 `click menu`가 출력됩니다.
 
-<p data-height="265" data-theme-id="0" data-slug-hash="pVjLmW" data-default-tab="js,result" data-user="blueshw" data-embed-version="2" data-pen-title="event capturing in react" class="codepen">See the Pen <a href="https://codepen.io/blueshw/pen/pVjLmW/">event capturing in react</a> by Hyunwoo Seo (<a href="https://codepen.io/blueshw">@blueshw</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<p data-height="450" data-theme-id="0" data-slug-hash="pVjLmW" data-default-tab="js,result" data-user="blueshw" data-embed-version="2" data-pen-title="event capturing in react" class="codepen">See the Pen <a href="https://codepen.io/blueshw/pen/pVjLmW/">event capturing in react</a> by Hyunwoo Seo (<a href="https://codepen.io/blueshw">@blueshw</a>) on <a href="https://codepen.io">CodePen</a>.</p>
 <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
 
 #### 정리
